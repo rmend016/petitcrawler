@@ -1,2 +1,4 @@
+Example program using petitcrawler package
+
 go build
 ./test -url <URL>
