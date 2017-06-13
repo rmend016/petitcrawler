@@ -11,14 +11,13 @@ Import ( “petitcrawler” )
 
 Func main() {
     Crawler, err := petitcrawler.New()
- if err != nil {
-glog.Fatal("Failed to create a crawler: %s", err)
- }
- 
-  err =Mycrawler.Run()
-  if err !=nil {
-glog.Fatal("Failed to run crawler: %s", err)
-   }
+    if err != nil {
+        glog.Fatal("Failed to create a crawler: %s", err)
+    }
+    err = Mycrawler.Run()
+    if err !=nil {
+        glog.Fatal("Failed to run crawler: %s", err)
+    }
 }
 
 
