@@ -1,4 +1,6 @@
-Test suite for Petit crawler. 
+Test suite for petitcrawler. 
+Including full program tests, and unit tests for all functions.
 
 
-Run: go test -url http://exampleURL.com
+Run: 
+  go test -url <URL>
