@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<a href="https://www.example.com">This is a link</a>
+<a href="https://www.example3.com">This is a link</a>
+<a href="https://www.example2.com">This is a link</a>
+
+</body>
+</html>

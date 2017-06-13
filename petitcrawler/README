@@ -1,0 +1,27 @@
+Info: Package created for crawling a single domain
+
+Author: Rachel Mendiola, 12 June 2017
+
+
+EXAMPLE USAGE of PACKAGE: 
+
+
+
+Import ( “petitcrawler” )
+
+Func main() {
+    Crawler, err := petitcrawler.New()
+ if err != nil {
+glog.Fatal("Failed to create a crawler: %s", err)
+ }
+ 
+  err =Mycrawler.Run()
+  if err !=nil {
+glog.Fatal("Failed to run crawler: %s", err)
+   }
+}
+
+
+
+
+EXAMPLE COMMAND LINE CALL: ./test -url <URL> -maxtime 60 -log_dir=”./” -numworkers=100 -filename MySiteMap.txt

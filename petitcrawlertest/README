@@ -1,0 +1,4 @@
+Test suite for Petit crawler. 
+
+
+Run: go test -url http://exampleURL.com
